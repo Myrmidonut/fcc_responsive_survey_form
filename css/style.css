@@ -1,0 +1,42 @@
+* {
+  font-family: "Lato";
+}
+
+fieldset {
+  max-width: 500px;
+  margin: auto;
+}
+
+fieldset {
+  margin-top: 21px;
+}
+
+main{
+  text-align: center;
+}
+
+#number {
+  width: 149px;
+}
+
+#name-label, #email-label, #number-label {
+  display: inline-block;
+  width: 47px;
+  text-align: left;
+}
+
+.cpuLabel, .graphicsLabel, .osLabel {
+  display: inline-block;
+  width: 70px;
+  text-align: left;
+}
+
+textarea {
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+}

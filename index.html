@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<main id="main">
+  <h1 id="title">Computer Hardware Survey</h1>
+  
+  <p id="description">
+    This is my survey project for freeCodeCamp. Please fill in you personal details and answer all questions. Thanks!
+  </p>
+  
+  <form id="survey-form" action="#" method="GET">
+    <fieldset>
+      <legend>Personal Details</legend>
+      <p>
+        <label id="name-label" for="name">Name: </label>
+        <input id="name" type="text" placeholder="your name" required>
+      </p>
+      <p>
+        <label id="email-label" for="email">Email: </label>
+        <input id="email" type="email" placeholder="your email" required>
+      </p>
+      <p>
+        <label id="number-label" for="number">Age: </label>
+        <input id="number" type="number" min="0" max="120" placeholder="your age">
+      </p>
+    </fieldset>
+    
+    <div>
+      <fieldset>
+        <legend>Questions</legend>
+        
+        <p>
+          <p>
+            <label for="dropdown">How much RAM do you have?</label>
+          </p>
+          <select id="dropdown" name="ram">
+            <option value="lessTwo"><&nbsp;&nbsp;2GB</option>
+            <option value="two">&nbsp;&nbsp;&nbsp;&nbsp;2GB</option>
+            <option value="four">&nbsp;&nbsp;&nbsp;&nbsp;4GB</option>
+            <option value="eight">&nbsp;&nbsp;&nbsp;&nbsp;8GB</option>
+            <option value="sixteen">&nbsp;&nbsp;16GB</option>
+            <option value="moreSixteen">>16GB</option>
+            <option value="other">other</option>
+          </select>
+        </p>
+      
+        <hr>
+      
+        <p>
+            Which CPU do you use?
+          <div>
+            <label class="cpuLabel" for="cpuAmd">AMD: </label>
+            <input id="cpuAmd" type="radio" name="cpu" value="amd">
+          </div>
+          <div>
+            <label class="cpuLabel" for="cpuIntel">Intel: </label>
+            <input id="cpuIntel" type="radio" name="cpu" value="intel">
+          </div>
+          <div>
+            <label class="cpuLabel" for="cpuOther">Other: </label>
+            <input id="cpuOther" type="radio" name="cpu" value="other">
+          </div>
+        </p>
+    
+        <hr>
+
+        <p>
+          Which graphics card do you use?
+          <div>
+            <label class="graphicsLabel" for="radio2a">AMD: </label>
+            <input id="radio2a" type="radio" name="graphics" value="amd">
+          </div>
+          <div>
+            <label class="graphicsLabel" for="radio2b">Nvidia: </label>
+            <input id="radio2b" type="radio" name="graphics" value="nvidia">
+          </div>
+          <div>
+            <label class="graphicsLabel" for="radio2c">Other: </label>
+            <input id="radio2c" type="radio" name="graphics" value="other">
+          </div>
+        </p>
+  
+        <hr>
+
+        <p>
+          Which operating systems do you use?
+          <div>
+            <label class="osLabel" for="checkbox1">Windows: </label>
+            <input id="checkbox1" type="checkbox" name="os" value="windows">
+          </div>
+          <div>
+            <label class="osLabel" for="checkbox2">Linux: </label>
+            <input id="checkbox2" type="checkbox" name="os" value="linux">
+          </div>
+          <div>
+            <label class="osLabel" for="checkbox3">MacOS: </label>
+            <input id="checkbox3" type="checkbox" name="os" value="macos">
+          </div>
+          <div>
+            <label class="osLabel" for="checkbox4">Other: </label>
+            <input id="checkbox4" type="checkbox" name="os" value="other">
+          </div>
+        </p>
+        
+        <hr>
+
+        <p>
+          <textarea rows="5" placeholder="Optional comments"></textarea>
+        </p>
+
+        <p>
+          <button id="submit">Submit</button>
+        </p>
+        
+      </fieldset>
+    </div>
+  </form>
+</main>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
