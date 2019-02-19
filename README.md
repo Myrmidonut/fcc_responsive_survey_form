@@ -3,7 +3,7 @@
 ## Introduction
 A survey form about computer hardware.
 
-This project is part of freeCodeCamps Data Visualization certificate.
+This project is part of freeCodeCamps Responsive Web Design certificate.
 
 ## Project Requirements
 * There is a title with id="title" in H1 sized text.
