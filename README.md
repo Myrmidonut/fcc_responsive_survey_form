@@ -5,6 +5,8 @@ A survey form about computer hardware.
 
 This project is part of freeCodeCamps Responsive Web Design certificate.
 
+***
+
 ## Project Requirements
 * There is a title with id="title" in H1 sized text.
 * There is a short explanation with id="description" in P sized text.
@@ -23,8 +25,12 @@ This project is part of freeCodeCamps Responsive Web Design certificate.
 * Inside the form element, I am presented with a textarea at the end for additional comments.
 * Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
 
+***
+
 ## Final Project
 https://myrmidonut.github.io/fcc_responsive_survey_form
+
+***
 
 ## Preview Images
 ### Main Screen:
