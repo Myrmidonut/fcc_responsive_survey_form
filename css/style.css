@@ -40,3 +40,8 @@ button {
   width: 80px;
   height: 30px;
 }
+
+input, select, option, textarea, button {
+  background: white;
+  color: black;
+}
